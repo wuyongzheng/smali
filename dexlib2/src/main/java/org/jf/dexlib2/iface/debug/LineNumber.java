@@ -34,7 +34,7 @@ package org.jf.dexlib2.iface.debug;
 public interface LineNumber extends DebugItem {
     /**
      * The line number associated with this code address. This value should be treated as an unsigned integer, with
-     * negative values indicating a value > 2^31, using the usual two's complement semantics.
+     * negative values indicating a value &gt; 2^31, using the usual two's complement semantics.
      *
      * @return The line number associated with this code address.
      */

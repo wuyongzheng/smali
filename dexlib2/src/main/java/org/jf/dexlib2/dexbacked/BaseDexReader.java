@@ -145,7 +145,7 @@ public class BaseDexReader<T extends BaseDexBuffer> {
     }
 
     /**
-     * Reads a "big" uleb128 that can legitimately be > 2^31. The value is returned as a signed integer, with the
+     * Reads a "big" uleb128 that can legitimately be &gt; 2^31. The value is returned as a signed integer, with the
      * expected semantics of re-interpreting an unsigned value as a signed value.
      *
      * @return The unsigned value, reinterpreted as a signed int

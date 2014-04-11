@@ -423,7 +423,7 @@ public class RadixTreeImpl<T> implements RadixTree<T>, Formattable {
      *
      *  Example:
      *  If a tree contain "blah1", "blah2"
-     *  complete("b") -> return "blah"
+     *  complete("b") -&gt; return "blah"
      *
      * @param prefix The prefix we want to complete
      * @return The unambiguous completion of the string.

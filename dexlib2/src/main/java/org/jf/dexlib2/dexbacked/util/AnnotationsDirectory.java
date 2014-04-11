@@ -78,7 +78,7 @@ public abstract class AnnotationsDirectory {
         };
 
         /**
-         * Seeks the iterator forward, to the first item whose key is >= the requested key. If the requested key value
+         * Seeks the iterator forward, to the first item whose key is &gt;= the requested key. If the requested key value
          * is less than that of the item that the iterator currently points to, it will not be moved forward.
          *
          * If an item with the requested key is found, the associated annotation offset is returned. Otherwise, 0 is

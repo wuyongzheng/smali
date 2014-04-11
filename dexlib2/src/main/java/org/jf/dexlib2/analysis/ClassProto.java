@@ -104,7 +104,7 @@ public class ClassProto implements TypeProto {
     }
 
     /**
-     * Returns the set of interfaces that this class implements as a Map<String, ClassDef>.
+     * Returns the set of interfaces that this class implements as a Map&lt;String, ClassDef&gt;.
      *
      * The ClassDef value will be present only for the interfaces that this class directly implements (including any
      * interfaces transitively implemented), but not for any interfaces that are only implemented by a superclass of
@@ -115,7 +115,7 @@ public class ClassProto implements TypeProto {
      *
      * If any interface couldn't be resolved, then the interfacesFullyResolved field will be set to false upon return.
      *
-     * @return the set of interfaces that this class implements as a Map<String, ClassDef>.
+     * @return the set of interfaces that this class implements as a Map&lt;String, ClassDef&gt;.
      */
     @Nonnull
     protected LinkedHashMap<String, ClassDef> getInterfaces() {
